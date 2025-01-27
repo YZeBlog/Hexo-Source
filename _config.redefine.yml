@@ -1,0 +1,83 @@
+info:
+    title: 梦泽念季夏
+    subtitle: 季夏蝉鸣如歌
+    author: 梦泽
+    url: https://zeblog.gbrfn.com
+defaults:
+    favicon: /images/favicon.png
+    logo: /images/favicon.png
+    avatar: /images/avatar.jpg
+global:
+    chinese:
+        enable: true
+        family: Noto Sans SC
+        url: https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@400;500;700&display=swap
+    english:
+        enable: true
+        family: Farsan
+        url: https://fonts.googleapis.com/css2?family=Farsan&display=swap
+    hover:
+        shadow: true
+        scale: true
+    scroll_progress:
+        bar: true
+        percentage: true
+    preloader:
+        enable: true
+        custom_message: 火箭正在升空..
+fontawesome:
+    thin: false
+    light: false
+    duotone: true
+    sharp_solid: false
+home_banner:
+    title: 季夏蝉鸣如歌
+    subtitle:
+      text: ["万般皆是苦，半点不由人", "爱意随风起，风止意难平"]
+    social_links:
+      links:
+        github: https://github.com/YShenZe
+        twitter: https://twitter.com
+        facebook: https://facebook.com
+        instagram: https://instagram.com
+        fa-duotone fa-solid fa-rss: https://blogecho.zeimg.top
+    enable: true
+    style: fixed
+navbar:
+  links:
+    About:
+      path: https://zeblog.gbrfn.com/about.html
+      icon: fa-duotone fa-solid fa-user
+    Archives:
+      path: https://zeblog.gbrfn.com/archives
+      icon: fa-duotone fa-solid fa-box-archive
+    Github:
+      path: https://github.com/YShenZe
+      icon: fa-brands fa-github
+    BlogEcho:
+      path: https://blogecho.zeimg.top
+      icon: fa-duotone fa-solid fa-rss
+search:
+  enable: true
+  preload: true
+home:
+  enable: true
+  position: left
+  first_item: menu
+  announcement: 博客成功迁移至Github Pages
+comment:
+  enable: true
+  system: giscus
+  config:
+    giscus:
+      repo: YZeBlog/YZeBlog.github.io
+      repo_id: R_kgDONuPfKA
+      category: Announcements
+      category_id: DIC_kwDONuPfKM4CmRdJ
+      mapping: title
+      strict: 0
+      reactions_enabled: 1
+      emit_metadata: 0
+      lang: zh-CN
+      input_position: bottom
+      loading: lazy
