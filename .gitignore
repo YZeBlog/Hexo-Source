@@ -128,3 +128,11 @@ dist
 .yarn/build-state.yml
 .yarn/install-state.gz
 .pnp.*
+
+# hexo
+.DS_Store
+Thumbs.db
+db.json
+public/
+.deploy*/
+_multiconfig.yml
